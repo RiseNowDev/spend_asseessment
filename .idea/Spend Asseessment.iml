@@ -5,9 +5,8 @@
       <excludeFolder url="file://$MODULE_DIR$/models" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
-    <orderEntry type="jdk" jdkName="C:\Users\Trav\miniconda3" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.11 (spend_asseessment)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="dropbase" />
   </component>
   <component name="PackageRequirementsSettings">
     <option name="removeUnused" value="true" />
