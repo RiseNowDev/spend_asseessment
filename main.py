@@ -15,6 +15,7 @@ logging.basicConfig(
 # Add sidebar link to profile.py
 st.sidebar.page_link("profile", label="Profile", icon="👤")
 
+
 def connect_to_database(db_file_path: str) -> sqlite3.Connection:
     """
     Connects to the SQLite database.

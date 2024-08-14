@@ -83,6 +83,7 @@ def process_item_code(item_code: str) -> GetItemData:
         GetItemData: The item data.
     """
 
+    global count
     tools = [
         StructuredTool.from_function(
             name="investigate_item",
@@ -101,6 +102,7 @@ def process_item_code(item_code: str) -> GetItemData:
         }
     )
     parsed_data = parser.parse(result["output"])
+    count += 1
     return parsed_data
 
 
